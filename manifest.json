@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "SmartIntent Assistant",
+  "version": "1.0",
+  "description": "AI-powered agentic browser assistant",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:5000/*"
+  ]
+}
